@@ -1,0 +1,224 @@
+$accent: #FF5D04;
+footer{
+    width: 100%;
+    .copy{
+        width: 100%;
+        text-align: center;
+        color: #23262A;
+        font-size: 13px;
+        line-height: 17px;
+        letter-spacing: -0.576px;
+        margin-top: 126px;
+        margin-bottom: 53px;
+    }
+    .footer_wrap{
+        padding: 55px 0 0;
+        max-width: 1435px;
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        .block_1{
+            width: 300px;
+            text-align: center;
+            margin-right: 75px;
+            .footerLogo{
+                margin: 0 auto;
+                width: 80%;
+                display: block;
+                img{
+                    width: 100%;
+                }
+            }
+            .tel{
+                color: $accent;
+                text-decoration: underline;
+                font-size: 25px;
+                font-weight: 400;
+            }
+            .soc_ico{
+                img{
+                    width: 37px;
+                    margin: 30px 4px;
+                }
+            }
+        }
+        .mnu_Items{
+            display: flex;
+            flex: 1;
+
+            .block_2{
+                width: 160px;
+                text-align: left;
+                margin-right: 100px;
+                a, span{
+                    display: block;
+                    margin: 6px 0;
+                }
+                p{
+                    color: #23262A;
+                    font-size: 24px;
+                    font-weight: 700; 
+                }
+                span{
+                    color: #23262A;
+                    font-size: 17px;
+                   
+                }
+                a{
+                    color: #23262A;
+                    font-size: 15px;
+                    margin: 6px 0;
+                    text-decoration: none;
+                    opacity: 0.6;
+                }
+            }
+            .block_3{
+                //width: 360px;
+                text-align: left;
+                a, span{
+                    display: block;
+                    margin: 6px 0;
+                }
+                .modelsLinks{
+                    display: flex;
+                    gap: 12px;
+                    flex-wrap: wrap;
+                    a{
+                        color: #23262A;
+                        font-size: 15px;
+                        margin: 0;
+                        text-decoration: none;
+                        display: block;
+                        width: 30%;
+                        margin-right: 12px;
+                        opacity: 0.6;
+                        &:hover{
+                            opacity: 0.7;
+                        }
+                    }
+                }
+                
+                p{
+                    color: #23262A;
+                    font-size: 24px;
+                    font-weight: 700; 
+                }
+            }   
+        }
+    
+    }
+}
+@media (max-width: 768px){
+    footer{
+        .copy{
+            margin-top: 30px;
+            margin-bottom: 32px;
+        }
+        .footer_wrap{
+            padding: 12px 16px;
+            flex-direction: column;
+            .block_1{
+                width: 100%;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                margin-bottom: 32px;
+                margin-right: 0;
+                .footerLogo{
+                    margin: auto;
+                    width: 44%;
+                    display: block;
+                    img{
+                        width: 100%;
+                    }
+                }
+                a{
+                    width: 47%;
+                    img{
+                        width: 100%;
+                    }
+                }
+                .tel{
+                    width: 58%;
+                    font-size: 16px;
+                    text-align: center;
+                    width: 47%;
+                    margin-top: 10px;
+                }
+                .soc_ico{
+                    width: 52%;
+                    img{
+                        width:26px;
+                        margin: 18px 3px;
+                    }
+                }
+            }
+            .mnu_Items{
+                display: flex;
+                flex-wrap: wrap;
+                flex: 1;
+    
+                .block_2{
+                    width: 100%;
+                    text-align: left;
+                    margin-right: 0;
+                    a, span{
+                        display: block;
+                        margin: 6px 0;
+                    }
+                    p{
+                        color: #23262A;
+                        font-size: 24px;
+                        font-weight: 700; 
+                    }
+                    span{
+                        color: #23262A;
+                        font-size: 17px;
+                       
+                    }
+                    a{
+                        color: #23262A;
+                        font-size: 15px;
+                        margin: 6px 0;
+                        text-decoration: none;
+                        opacity: 0.6;
+                    }
+                }
+                .block_3{
+                    //width: 360px;
+                    text-align: left;
+                    a, span{
+                        display: block;
+                        margin: 6px 0;
+                    }
+                    .modelsLinks{
+                        display: flex;
+                        gap: 12px;
+                        flex-wrap: wrap;
+                        a{
+                            color: #23262A;
+                            font-size: 15px;
+                            margin: 0;
+                            text-decoration: none;
+                            display: block;
+                            width: 43%;
+                            margin-right: 12px;
+                            opacity: 0.6;
+                            &:hover{
+                                opacity: 0.7;
+                            }
+                        }
+                    }
+                    
+                    p{
+                        color: #23262A;
+                        font-size: 24px;
+                        font-weight: 700; 
+                    }
+                }   
+            }
+        }
+    }
+}

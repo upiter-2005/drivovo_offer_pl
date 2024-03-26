@@ -1,0 +1,28 @@
+.list{
+    max-width: 1130px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: left;
+    padding: 60px 10px;
+    div{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        span{
+            width: 50%;
+        }
+    }
+    a{
+        display: inline-block;
+        width: 50%;
+        color: #FF5D04;
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 20px;
+        padding: 3px 0;
+        &:hover{
+            color: #333;
+        }
+    }
+
+}

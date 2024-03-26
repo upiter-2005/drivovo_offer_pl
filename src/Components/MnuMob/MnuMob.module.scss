@@ -1,0 +1,38 @@
+.MnuMobile{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 36px;
+    transform: translate(-100%, 0);
+    top: 0;
+    left: 0;
+    background-color: #23262a;
+    transition: transform .3s ease;
+    z-index: 1111;
+    &.activeMobMnu{
+        transform: translate(0, 0)!important;
+    }
+    a{
+        font-size: 18px;
+        color: #fff;
+        text-decoration: none;
+        padding: 8px 0;
+        display: block;
+    }
+    ul{
+        margin: 40px 0 0;
+        padding: 50px 0;
+        list-style-type: none;
+    }
+    .logo{
+        padding: 56px 0;
+    }
+    .close{
+        position: absolute;
+        display: block;
+        right: 24px;
+        top: 24px;
+    }
+}

@@ -1,0 +1,60 @@
+body {
+  position: relative;
+  margin: 0;
+   font-family: 'Comfortaa', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+* {
+  box-sizing: border-box;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+@font-face {
+  font-family: "SFProDisplay";
+  src: local("SFProDisplay"),
+    url("./fonts/San Francisco Pro Display/SF-Pro-Display-Regular.ttf") format("truetype");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "SFProDisplay";
+  src: local("SFProDisplay"),
+    url("./fonts/San Francisco Pro Display/SF-Pro-Display-Medium.ttf") format("truetype");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "SFProDisplay";
+  src: local("SFProDisplay"),
+    url("./fonts/San Francisco Pro Display/SF-Pro-Display-Semibold.ttf") format("truetype");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "SFProDisplay";
+  src: local("SFProDisplay"),
+    url("./fonts/San Francisco Pro Display/SF-Pro-Display-Bold.ttf") format("truetype");
+  font-weight: 700;
+}
+
+.ApiWrap {
+  max-width: 1320px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 118px 0 70px;
+}
+
+ifarme .container.loaded{
+  box-shadow: none!important;
+  margin: 0!important;
+}
+@media (max-width: 1440px) {
+  .ApiWrap {
+    padding: 52px 0 30px;
+  }
+}
+@media (max-width: 992px) {
+  .ApiWrap {
+    padding: 50px 0 0;
+  }
+}
